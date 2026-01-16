@@ -6,8 +6,8 @@ This script implements a 2D Cellular Automata simulation of Mark Granovetter’s
 
 The simulation uses a **Moore Neighborhood** (8 neighbors) on a square grid. Each cell represents an agent with a threshold :
 
-* ** (Instigators):** Agents who activate at  regardless of their surroundings.
-* **:** Agents who activate only if  neighbors are already active.
+* (Instigators): Agents who activate at  regardless of their surroundings.
+* Agents who activate only if  neighbors are already active.
 
 The model is highly sensitive to the spatial distribution of  agents. A small cluster of instigators can "bridge" gaps between cautious agents, triggering a non-linear participation jump.
 
